@@ -13,11 +13,12 @@ public class MainActivity extends AppCompatActivity {
 
 //    NotificationManager notificationManager;
     private String CHANNEL_ID = "com.example.notificationap";
-    String textTitle = "New Notification";
-    String textContent = "Notification is here";
+    String textTitle = "How to create a push Notification";
+    String textContent = "This push notification was created by Nelson, " +
+            "following the official android documentation on how to create a push notification";
 
-    String channel_name = "New Notification";
-    String channel_description = "Notification is here";
+    String channel_name = "channel_name";
+    String channel_description = "channel_description";
     int notificationId = 453453;
 
     // Key for the string that's delivered in the action's intent.
